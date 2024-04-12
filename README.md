@@ -1,1 +1,1 @@
-# Gestion_des_stagiaires
+# gestion-des-stagiaires

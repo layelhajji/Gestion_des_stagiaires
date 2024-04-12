@@ -1,0 +1,96 @@
+@import url(//db.onlinewebfonts.com/c/1fed4454352f201d52b65ca5480afb2d?family=Playlist);
+
+body{
+    background-color: #fdfde9;
+  
+}
+.image{
+  
+  top: 50%;
+  padding-top: 230px;
+  width: 36%;
+  height: 41%;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: -66px;
+    
+  }
+nav{
+    display: flex;
+    text-align: center;
+    height: 70px;
+    position: fixed;
+    top: -12px;
+    width: 100%;
+    z-index: 999;
+    background-image:linear-gradient(#0cc0df,hsl(48, 100%, 67%));
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.184);
+    justify-content: center;
+    opacity: 81%;
+    margin:0;
+    padding: 0;
+  }
+  nav li{
+    display: inline; 
+    
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+    font-size: 17px;
+     
+  }
+  
+  .hov{
+    padding: 0px 35px;
+    padding-top: 110px;
+    
+  }
+  .hov:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color:#2356e4;
+    opacity: 90%;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  .hov a:hover{
+    cursor: pointer;
+    color:#2356e4;
+    
+  }
+  .hov:hover:before {
+    transform: scaleX(1);
+  }
+  span{
+    font-family: "Playlist"; src: url("//db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.eot"); src: url("//db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.woff") format("woff"), url("//db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.svg#Playlist") format("svg"); 
+  }
+  h2{
+    font-size: 48px;
+    text-align: center;
+    color:#2356e4;
+    opacity: 85%;
+    padding-left: 32px;
+    
+    padding-top: -7px;
+    
+    
+    font-family: "Playlist"; src: url("//db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.eot"); src: url("//db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.woff") format("woff"), url("//db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1fed4454352f201d52b65ca5480afb2d.svg#Playlist") format("svg"); 
+  }
+
+
+  
+  
+            
+  
+  
+            
